@@ -1,0 +1,42 @@
+{
+  "$GMObject":"",
+  "%Name":"obj_passa_pra_room",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"obj_passa_pra_room",
+  "overriddenProperties":[],
+  "parent":{
+    "name":"objetos aleatorios",
+    "path":"folders/Objects/objetos aleatorios.yy",
+  },
+  "parentObjectId":null,
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"destino_1","filters":[
+        "GMRoom",
+      ],"listItems":[],"multiselect":false,"name":"destino_1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_introducao_alternativo","path":"rooms/rm_introducao_alternativo/rm_introducao_alternativo.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_introducao_alternativo","varType":5,},
+  ],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"spr_ar",
+    "path":"sprites/spr_ar/spr_ar.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}
